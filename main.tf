@@ -7,10 +7,10 @@ terraform {
   }
   required_version = ">= 1.0.4"
   cloud {
-    organization = "aws-poc-cloud"
+    organization = "terraform-www-aws"
 
     workspaces {
-      name = "aws-terraformcloud-github-poc"
+      name = "terraformWS"
     }
   }
 }
