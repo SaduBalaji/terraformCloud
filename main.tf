@@ -5,7 +5,7 @@ terraform {
       version = "~> 3.27"
     }
   }
-  required_version = ">= 1.0.4"
+  required_version = ">= 1.2.6"
   cloud {
     organization = "terraform-www-aws"
 
